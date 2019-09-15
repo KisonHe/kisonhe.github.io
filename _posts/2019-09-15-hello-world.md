@@ -8,12 +8,12 @@ tags: [hello]
 
  # Hello World
 
-![Image of Yaktocat](/asset/images/waifu.png)
+![Image of Yaktocat](/asset/images/2019-09/waifu.png)
 
 whats new?
 
-- new blog
-- new friend
+- new blogs
+- new friends
 - ~~new waifu~~
 
 

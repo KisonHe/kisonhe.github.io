@@ -17,10 +17,11 @@ permalink: /about
 
 
 
-## friend
+## friends
 
 - [sayo melu](https://sayo-melu.xyz/) *感谢其对本博客的大力支持*
 - t123yh
+- Maxine 一位背后默默支持我，不愿透露姓名的幕后工作者
 
 ---
 
