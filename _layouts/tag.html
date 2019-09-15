@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<main>
+  <div class='tag tag-tag'>
+    {% for tag in site.tags %}
+    <a href='#{{ tag[0] }}'>
+      {{ tag[0] }}
+      <span class='count'>{{ tag[1] | size }}</span>
+    </a>
+    {% endfor %}  
+  </div>
+  {% for tag in site.tags %}
+    <article class='post'>
+      <h3 id='{{ tag[0] }}'>{{ tag[0] }}</h3>
+      <ul>
+        {% for post in tag[1] %}
+            <li>
+                <a href='{{ post.url }}'>{{ post.title }}</a>
+                <date class='date'>{{ post.date | date: '%Y.%m.%d' }}</date>
+            </li>
+        {% endfor %}
+      </ul>
+    </article>
+  {% endfor %}
+</main>

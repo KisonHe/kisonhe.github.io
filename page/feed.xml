@@ -1,0 +1,31 @@
+---
+layout: null
+permalink: /feed.xml
+---
+
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom'>
+  <title>{{ site.title }}</title>
+  <subtitle>{{ site.description }}</subtitle>
+  <link href='{{ '/' | absolute_url }}' />
+  <author>
+    <name>{{ site.author }}</name>
+    <email>{{ site.email }}</email>
+    <uri>{{ '/' | absolute_url }}</uri>
+  </author>
+  <icon>{{ site.logo | absolute_url }}</icon>
+  <logo>{{ site.logo | absolute_url }}</logo>
+  <id>{{ '/' | absolute_url }}</id>
+  <updated>{{ 'now' | date_to_xmlschema }}</updated>
+  <rights>copyright © {{ site.title }}</rights>
+  {% for post in site.posts %}
+    <entry>
+      <title>{{ post.title | xml_escape }}</title>
+      <link href='{{ post.url | absolute_url }}' />
+      <id>{{ post.url | absolute_url }}</id>
+      <published>{{ post.date | date_to_xmlschema }}</published>
+      <summary>{{ post.excerpt | strip_html | strip_newlines }}</summary>
+      <content type='html' xml:base='{{ post.url | absolute_url | xml_escape }}'>{{ post.content | xml_escape | strip_newlines }}</content>
+    </entry>
+  {% endfor %}
+</feed>

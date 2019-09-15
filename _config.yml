@@ -1,0 +1,55 @@
+# site information
+title: Kison He
+description: tech design life acg
+url: https://sayo-melu.xyz
+author: Kison He
+email: sayo-melu@outlook.com
+logo: /asset/icon/logo.png # url of your logo or avatar
+lang: zh-hans # language-territory
+color: '#7B90D2'
+
+
+social:
+  name: Kison He
+  links:
+    - https://github.com/KisonHe/
+
+webmaster_verifications:
+  bing:
+  google:
+  yandex:
+
+# comment
+github-issue: 'KisonHe/kisonhe.github.io' # github username/repository, e.g. 'username/repository'
+disqus: # disqus shortname
+livere: # livere data-uid
+
+# analytic
+google_analytics: # google analytics web tracking code
+
+# jekyll config
+permalink: /:title/
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+sass:
+  style: :expanded
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+include:
+
+exclude:
+  - cname
+  - gemfile
+  - gemfile.lock
+  - license.txt
+  - readme.md
+  - vendor
