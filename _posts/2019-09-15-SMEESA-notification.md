@@ -15,6 +15,8 @@ tags: SMEESA notification
 
 ## 电路培训时间计划
 
+**9 月 16 日起**： 逐步投放电路培训视频
+
 **9 月 18 日**: 举行投票，当晚发布结果并将大家分为三组进行培训.
 
 - **第一组**：9 月 19 日，下午 7、8 节
@@ -23,6 +25,7 @@ tags: SMEESA notification
 
 9 月 20 日至 25 日，**周一到周五** 为 7、8 节课。**周六、周天** 上午下午 各一场. (共三次, 九组)
 
+## ! ! 该表近期可能会有大改动 请大家多看群
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
@@ -46,7 +49,7 @@ tags: SMEESA notification
   <tr>
     <td class="tg-0pky">第二组</td>
     <td class="tg-0pky">9.20周五 -- 7，8节</td>
-    <td class="tg-0pky">韩君怡</td>
+    <td class="tg-0pky">田清扬</td>
   </tr>
   <tr>
     <td class="tg-0pky">第三组</td>
@@ -93,9 +96,11 @@ tags: SMEESA notification
 
 
 ### 电路培训具体内容
-- 第一次培训
+- 第一次培训 
+    - **地点** 工程训练中心 320-6
     - 每个队进场签到，领取一块PCB。
-    0.5课时简单讲解一下PCB的原理图，主要让学弟学妹们了解，哪些是电容电阻，哪些
+    - 0.1课时强调一下， **不要** 像某某某学长一样 **将饮料倒在海绵** 上，使得海绵与烙铁有股奇妙的味道
+    - 0.4课时简单讲解一下PCB的原理图，主要让学弟学妹们了解，哪些是电容电阻，哪些
     需要区分方向等，对这些元件有一个基本的认识。
     - 1.5课时开始教焊芯片，先拿一个芯片的演示两个引脚对位，然后分发芯片。让每个同
       学自行焊点对位，然后看一下对的情况。有超过半数的对好了就演示一个边引脚的焊接，
@@ -112,7 +117,7 @@ tags: SMEESA notification
 
 ## 软件培训时间
 
-时间比宣讲会 **提前一天**，为 **17 日下午 7、8 节课**，地点为 **品学楼A101**。
+时间比宣讲会 **时间待定**，地点为 **待定**。
 
 #### 注意事项
 
@@ -128,8 +133,14 @@ tags: SMEESA notification
 > Q2：答疑时间段什么时候公布呢？
 > A2：学长事情其实也比较多，因此答疑时间没法提前很久公布。预计在每周四，五公布答疑负责人与时间段。
 
-> A3：电路已经有了安排计划，那么软件时间安排后续呢？
-> Q3：现在参与软件培训的人数难以确定，我会根据人数选择 教室/实验室 来上课，请大家在等一下。
+> Q3：电路已经有了安排计划，那么软件时间安排后续呢？
+> A3：现在参与软件培训的人数难以确定，我会根据人数选择 教室/实验室 来上课，请大家在等一下。
+
+> Q4：没法带电脑怎么办
+> A4：请自行尽量解决，无法解决的手机安装FireFox / Chrome ， 使用在线 IDE 将就
+
+
+<a href="/asset/files/2019/Namelist.xlsx">新生赛报名名单公示</a> 发现有问题清第一时间联系管理员
 
 
 <!--
@@ -138,3 +149,6 @@ tags: SMEESA notification
   <img src="/asset/images/2019-09/Namelist.jpg" alt="drawing" width="600"/>
   - 
 -->
+
+
+
