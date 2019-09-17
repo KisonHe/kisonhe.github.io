@@ -29,70 +29,78 @@ tags: SMEESA notification
 
 9 月 20 日至 25 日，**周一到周五** 为 7、8 节课。**周六、周天** 上午下午 各一场. (共三次, 九组)
 
-### ! ! 该表近期可能会有大改动 请大家多看群
+### 时间冲突培训调整预案： 
+若再次出现前一天才通知的第二天的年级必到活动，所有培训时间顺延一天。
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-lboi{border-color:inherit;text-align:left;vertical-align:middle}
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-0pky">次数</th>
-    <th class="tg-0pky">组数</th>
-    <th class="tg-0pky">日期</th>
-    <th class="tg-0pky">负责人</th>
+    <th class="tg-lboi">次数</th>
+    <th class="tg-cly1">组数</th>
+    <th class="tg-cly1">日期</th>
+    <th class="tg-cly1">负责人</th>
   </tr>
   <tr>
-    <td class="tg-0pky" rowspan="3">第一次</td>
-    <td class="tg-0pky">第一组</td>
-    <td class="tg-0pky">9.19周四 -- 7，8节</td>
-    <td class="tg-0pky">王星灿</td>
+    <td class="tg-cly1" rowspan="4">第一次</td>
+    <td class="tg-cly1">第一组</td>
+    <td class="tg-cly1">9.19 （周四） 7，8</td>
+    <td class="tg-cly1">王星灿</td>
   </tr>
   <tr>
-    <td class="tg-0pky">第二组</td>
-    <td class="tg-0pky">9.20周五 -- 7，8节</td>
-    <td class="tg-0pky">田清扬</td>
+    <td class="tg-cly1">年级大会删除</td>
+    <td class="tg-cly1">9.20 （周五） 7，8</td>
+    <td class="tg-cly1">田清扬</td>
   </tr>
   <tr>
-    <td class="tg-0pky">第三组</td>
-    <td class="tg-0pky">9.21周六 -- 上午</td>
-    <td class="tg-0pky">王星灿</td>
+    <td class="tg-cly1">第二组</td>
+    <td class="tg-cly1">9.21 （周六） - 上午</td>
+    <td class="tg-cly1">王星灿</td>
   </tr>
   <tr>
-    <td class="tg-0pky" rowspan="3">第二次</td>
-    <td class="tg-0pky">第一组</td>
-    <td class="tg-0pky">9.21周六 -- 下午</td>
-    <td class="tg-0pky">韩君怡</td>
+    <td class="tg-cly1">第三组</td>
+    <td class="tg-cly1">9.21 （周六） - 下午</td>
+    <td class="tg-cly1">韩君怡</td>
   </tr>
   <tr>
-    <td class="tg-0lax">第二组</td>
-    <td class="tg-0lax">9.22周日 -- 上午</td>
-    <td class="tg-0lax">王星灿</td>
+    <td class="tg-cly1" rowspan="3">第二次</td>
+    <td class="tg-cly1">第一组</td>
+    <td class="tg-cly1">9.22 （周天） - 上午</td>
+    <td class="tg-cly1">王星灿</td>
   </tr>
   <tr>
-    <td class="tg-0lax">第三组</td>
-    <td class="tg-0lax">9.22周日 -- 下午</td>
-    <td class="tg-0lax">田清扬</td>
+    <td class="tg-cly1">第二组</td>
+    <td class="tg-cly1">9.22 （周天） - 下午</td>
+    <td class="tg-cly1">田清扬</td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="3">第三次</td>
-    <td class="tg-0lax">第一组</td>
-    <td class="tg-0lax">9.23周一 -- 7，8节</td>
-    <td class="tg-0lax">王星灿</td>
+    <td class="tg-cly1">第三组</td>
+    <td class="tg-cly1">9.23 （周一） 7，8</td>
+    <td class="tg-cly1">王星灿</td>
   </tr>
   <tr>
-    <td class="tg-0lax">第二组</td>
-    <td class="tg-0lax">9.24周二 -- 7，8节</td>
-    <td class="tg-0lax">田清扬</td>
+    <td class="tg-cly1" rowspan="3">第三次</td>
+    <td class="tg-cly1">第一组</td>
+    <td class="tg-cly1">9.24 （周二） 7 ，8</td>
+    <td class="tg-cly1">田清扬</td>
   </tr>
   <tr>
-    <td class="tg-0lax">第三组</td>
-    <td class="tg-0lax">9.25周三 -- 7，8节</td>
-    <td class="tg-0lax">韩君怡</td>
+    <td class="tg-cly1">第二组</td>
+    <td class="tg-cly1">9.25 （周三） 7，8</td>
+    <td class="tg-cly1">韩君怡</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">第三组</td>
+    <td class="tg-cly1">9.26 （周四） 7，8</td>
+    <td class="tg-cly1">田清扬</td>
   </tr>
 </table>
+
+
 
 - PS: 培训负责人可能会随时间灵活变动
 
