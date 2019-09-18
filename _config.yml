@@ -45,6 +45,7 @@ plugins:
   - jekyll-seo-tag
 
 include:
+  - analytics.html
 
 exclude:
   - cname

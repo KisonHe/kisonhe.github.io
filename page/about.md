@@ -25,4 +25,12 @@ permalink: /about
 
 ---
 
+## Analytics
+> I use Google Analytics to try to understand what kind of Content my audiance are most interested in.
+> The data are promised not to be used by me for any commercial proposes.
+
+---
+
 [sayo theme](https://gitlab.com/sayo-melu/sayo-melu.xyz) edited from [jekyll now](https://github.com/barryclark/jekyll-now).
+
+

@@ -87,5 +87,8 @@ tags: SMEESA homework
 > Q5：我啥也不懂咋办
 > A5：去看书
 
+> Q6：Visual Studio 我想用 scanf() 怎么办
+> A6：#define _CRT_SECURE_NO_WARNINGS
+
 
 ![readbook](/asset/images/2019-09/readbook.jpg)
