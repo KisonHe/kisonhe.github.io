@@ -121,7 +121,7 @@ tags: SMEESA notification
 ## 软件培训时间
 <div id="softwareHomework"></div>
 
-时间 **暂定** 为21日晚，地点为 **待定**。
+时间 **定为** 为21日晚，地点为 **待定**。
 
 #### 注意事项
 

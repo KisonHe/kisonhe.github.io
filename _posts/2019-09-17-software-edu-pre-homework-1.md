@@ -65,7 +65,7 @@ tags: SMEESA homework
     - 在第一次培训前，这是你可以选看的内容。允许不完全看懂，建议全章略读一遍。学会了本章以及第七章后，大家已经可以写出拥有不错的交互性，可以玩的程序了。
 
 ## 学习网站推荐
-- <a href="cplusplus.com">cplusplus.com</a> 英文最全 c++/c 资料站，有你想要的一切
+- <a href="https://cplusplus.com">cplusplus.com</a> 英文最全 c++/c 资料站，有你想要的一切
 - <a href="https://www.runoob.com/cprogramming/c-tutorial.html">runoob的c教程</a> 中文简明C教程 建议作为《CPP》的补充。
 <!--- <a href="https://www.luogu.org">洛谷</a> 中文社区 建议在 **学会第九章**， **至少学会第七章之后** 开始在平台上选择简单的题，自己思考思考思路，然后看看别人的做法。**不要在洛谷上抄袭题解！！！**  -->
 
@@ -91,4 +91,4 @@ tags: SMEESA homework
 > A6：#define _CRT_SECURE_NO_WARNINGS
 
 
-![readbook](/asset/images/2019-09/readbook.jpg)
+![readbook](/asset/images/2019-09/software-edu-pre-homework-1/readbook.jpg)
