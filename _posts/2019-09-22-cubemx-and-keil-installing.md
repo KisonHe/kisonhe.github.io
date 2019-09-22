@@ -14,8 +14,7 @@ tags: SMEESA tutorial
 - 运行 SetupSTM32CubeMX-5.3.0.exe
 - 运行 mkd528a.exe
 - 运行 Keil.STM32F1xx_DFP.2.2.0.pack
-
-> Keil 的破解先鸽着，下次更新
+-  Keil 破解 群文件中压缩包密码为 azxcvbnm
 
 ## 学习网站推荐
 - <a href="http://www.waveshare.net/study/article-630-1.html">微雪课堂</a>
