@@ -27,7 +27,7 @@ livere: # livere data-uid
 comment:
   vssue:
     state: true
-    owner: kisonhe
+    owner: KisonHe
     repo: kisonhe.github.io
     clientID: 794cb5f9ffa2f03fd819
     clientSecret: 70e86f29c417b05aea80840c8fdf392ed8b572d8
