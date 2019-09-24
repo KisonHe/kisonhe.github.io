@@ -1,14 +1,14 @@
 ---
 layout: null
-permalink: /style.css
+permalink: /style2.css
 ---
 
 :root {
-  --color-background: #ffffff;
+  --color-background: #232121;
   --color-link: {{ site.color }};
-  --color-1: #000000;
-  --color-2: #aeaeb2;
-  --color-3: #e5e5ea;
+  --color-1: #cac3c3;
+  --color-2: #7B90D2;
+  --color-3: #7B90D2;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -34,6 +34,7 @@ body {
   max-width: 100%;
 }
 
+
 button {
   background-color: var(--color-background); 
   border: none;
@@ -53,6 +54,7 @@ main {
 p {
   margin: 1.3em 0;
   line-height: 1.6em;
+  --color-1: #d1d1d6;
 }
 
 h1, h2, h3, h4, h5, h6 {
