@@ -2,6 +2,7 @@
 layout: post
 title: 从零开始的 Visual Studio 
 tags: SMEESA tutorial
+comment: true
 ---
 
 为纯新手的你准备的教程

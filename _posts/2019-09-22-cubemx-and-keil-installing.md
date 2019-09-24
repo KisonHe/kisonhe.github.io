@@ -2,6 +2,7 @@
 layout: post
 title: STM32CubeMX 与 Keil 
 tags: SMEESA tutorial
+comment: true
 ---
 
 安装STM32CubeMX 与 Keil V5

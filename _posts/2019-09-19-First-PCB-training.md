@@ -2,6 +2,7 @@
 layout: post
 title: 新生电路培训第一天
 tags: SMEESA training
+comment: true
 ---
 
 今天,在伟大的会长和副会长的带领下,我们几个科协老菜鸟开始引领着可爱的新生走进这个充满着无数精彩内容的科创世界的大门。

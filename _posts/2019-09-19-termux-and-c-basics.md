@@ -2,6 +2,7 @@
 layout: post
 title: Termux 与 C 基础
 tags: SMEESA tutorial termux
+comment: true
 ---
 
 很简单的介绍 Termux 

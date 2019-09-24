@@ -1,0 +1,58 @@
+{% if page.comment == true %}
+{% if site.comment.vssue.state %}
+  <link rel="stylesheet" href="https://unpkg.com/vssue/dist/vssue.min.css">
+  <div id="vssue"></div>
+  <script src="https://unpkg.com/vue/dist/vue.runtime.min.js"></script>
+  <script src="https://unpkg.com/vssue/dist/vssue.github.min.js"></script>
+  <script>
+    new Vue({
+      el: '#vssue',
+      render: h => h('Vssue', {
+        props: {
+          title: '{{ page.title }}',
+          options: {
+            owner: '{{ site.comment.vssue.owner }}',
+            repo: '{{ site.comment.vssue.repo }}',
+            clientId: '{{ site.comment.vssue.clientID }}',
+            clientSecret: '{{ site.comment.vssue.clientSecret }}',
+            labels: ['comment'],
+            prefix: '',
+            autoCreateIssue: true,
+          },
+        }
+      })
+    })
+  </script>
+{% endif %}
+{% if site.comment.disqus %}
+  <div class='comments'>
+    <div id='disqus_thread'></div>
+    <script type='text/javascript'>
+        var disqus_shortname = '{{ site.comment.disqus }}';
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>please enable javascript to view the <a href='http://disqus.com/?ref_noscript'>comments powered by disqus.</a></noscript>
+  </div>
+{% endif %}
+{% if site.comment.livere %}
+  <div class='comments'>
+    <div id='lv-container' data-id='city' data-uid='{{ site.comment.livere }}'>
+      <script type='text/javascript'>
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+      </script>
+      <noscript>please activate javascript for write a comment in livere</noscript>
+    </div>
+  </div>
+{% endif %}
+{% endif %}

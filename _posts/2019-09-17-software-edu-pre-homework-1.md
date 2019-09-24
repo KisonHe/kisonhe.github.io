@@ -2,6 +2,7 @@
 layout: post
 title: 机电科协软件培训参与须知
 tags: SMEESA homework
+comment: true
 ---
 
 参与软件培训前，你应该了解的事情
@@ -51,7 +52,7 @@ tags: SMEESA homework
 ## 常见问题
 
 > Q1：软件培训我来不了怎么办？
-> A1：我建议你来。
+> A1：我建议你来。comment: true
 
 > Q2：答疑时间段什么时候公布呢？
 > A2：私聊学长预约时间

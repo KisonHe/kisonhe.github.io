@@ -24,6 +24,17 @@ github-issue: 'KisonHe/kisonhe.github.io' # github username/repository, e.g. 'us
 disqus: # disqus shortname
 livere: # livere data-uid
 
+comment:
+  vssue:
+    state: true
+    owner: kisonhe
+    repo: kisonhe.github.io
+    clientID: 794cb5f9ffa2f03fd819
+    clientSecret: 70e86f29c417b05aea80840c8fdf392ed8b572d8
+  disqus: # disqus shortname
+  livere: # livere data-uid
+
+
 # analytic
 google_analytics: # google analytics web tracking code
 
