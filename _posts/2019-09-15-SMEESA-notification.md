@@ -116,7 +116,7 @@ tags: SMEESA notification
 ## 软件培训时间
 <div id="softwareHomework"></div>
 
-### 第二次培训 已经结束
+### 第三次培训 9 月 27 日 下午 3 点， 工程训练中心
 
 #### 注意事项
 

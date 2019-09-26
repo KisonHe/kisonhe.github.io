@@ -12,7 +12,7 @@
         {
         if (docCookies.getItem("lightsCookie") == null)
         {
-           docCookies.setItem("lightsCookie", 1, 65535, "/");
+           docCookies.setItem("lightsCookie", 1, Infinity, "/");
         }
     
         if (docCookies.getItem("lightsCookie") == 1)
@@ -31,19 +31,19 @@
         {
             if (docCookies.getItem("lightsCookie") == null)
             {
-                docCookies.setItem("lightsCookie", 1, 65535, "/");
+                docCookies.setItem("lightsCookie", 1, Infinity, "/");
             }
             if (docCookies.getItem("lightsCookie") == 1)
             {
                 document.getElementById("theme").href = '/style2.css';
                 document.getElementById("commentcss").href = '/commentnight.css';  
-                docCookies.setItem("lightsCookie", 0, 65535, "/"); 
+                docCookies.setItem("lightsCookie", 0, Infinity, "/"); 
             }
             else
             {
                 document.getElementById("theme").href = '/style.css';
                 document.getElementById("commentcss").href = '/comment.css'; 
-                docCookies.setItem("lightsCookie", 1, 65535, "/");
+                docCookies.setItem("lightsCookie", 1, Infinity, "/");
             }
         }
     </script>
