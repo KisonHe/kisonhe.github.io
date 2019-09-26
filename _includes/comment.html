@@ -1,6 +1,6 @@
 {% if page.comment == true %}
 {% if site.comment.vssue.state %}
-  <link rel="stylesheet" href="https://unpkg.com/vssue/dist/vssue.min.css">
+  <link id="commentcss" rel="stylesheet" href="/comment.css">
   <div id="vssue"></div>
   <script src="https://unpkg.com/vue/dist/vue.runtime.min.js"></script>
   <script src="https://unpkg.com/vssue/dist/vssue.github.min.js"></script>
@@ -22,6 +22,9 @@
         }
       })
     })
+  </script>
+  <script>
+      checkThemeAndUpdateCss();
   </script>
 {% endif %}
 {% if site.comment.disqus %}

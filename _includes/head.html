@@ -8,6 +8,8 @@
     <link rel='icon' type='image/png' href='{{ site.logo }}'>
     <link id="theme" rel='stylesheet' type='text/css' href='/style.css'>
     <script>
+        function checkThemeAndUpdateCss()
+        {
         if (docCookies.getItem("lightsCookie") == null)
         {
            docCookies.setItem("lightsCookie", 1, 65535, "/");
@@ -16,13 +18,15 @@
         if (docCookies.getItem("lightsCookie") == 1)
         {
             document.getElementById("theme").href = '/style.css'; 
+            document.getElementById("commentcss").href = '/comment.css'; 
         }
         else
         {
-            document.getElementById("theme").href = '/style2.css'; 
+            document.getElementById("theme").href = '/style2.css';
+            document.getElementById("commentcss").href = '/commentnight.css';  
         }
-    </script>
-    <script>
+        }
+
         function changestate()
         {
             if (docCookies.getItem("lightsCookie") == null)
@@ -32,14 +36,19 @@
             if (docCookies.getItem("lightsCookie") == 1)
             {
                 document.getElementById("theme").href = '/style2.css';
+                document.getElementById("commentcss").href = '/commentnight.css';  
                 docCookies.setItem("lightsCookie", 0, 65535, "/"); 
             }
             else
             {
                 document.getElementById("theme").href = '/style.css';
+                document.getElementById("commentcss").href = '/comment.css'; 
                 docCookies.setItem("lightsCookie", 1, 65535, "/");
             }
         }
+    </script>
+    <script>
+    checkThemeAndUpdateCss();
     </script>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}</title>
     <link rel='alternate' type='application/atom+xml' title='{{ site.title }}' href='/feed.xml'> {% if site.podcast.url %}
