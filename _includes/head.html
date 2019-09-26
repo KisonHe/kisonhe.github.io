@@ -7,6 +7,7 @@
     <meta name='viewport' content='width=device-width,initial-scale=1'> {% feed_meta %}
     <link rel='icon' type='image/png' href='{{ site.logo }}'>
     <link id="theme" rel='stylesheet' type='text/css' href='/style.css'>
+    {% if page.comment == true %}
     <script>
         function checkThemeAndUpdateCss()
         {
@@ -47,6 +48,45 @@
             }
         }
     </script>
+    {% else %}
+    <script>
+        function checkThemeAndUpdateCss()
+        {
+        if (docCookies.getItem("lightsCookie") == null)
+        {
+           docCookies.setItem("lightsCookie", 1, Infinity, "/");
+        }
+    
+        if (docCookies.getItem("lightsCookie") == 1)
+        {
+            document.getElementById("theme").href = '/style.css'; 
+        }
+        else
+        {
+            document.getElementById("theme").href = '/style2.css'; 
+        }
+        }
+
+        function changestate()
+        {
+            if (docCookies.getItem("lightsCookie") == null)
+            {
+                docCookies.setItem("lightsCookie", 1, Infinity, "/");
+            }
+            if (docCookies.getItem("lightsCookie") == 1)
+            {
+                document.getElementById("theme").href = '/style2.css';
+                docCookies.setItem("lightsCookie", 0, Infinity, "/"); 
+            }
+            else
+            {
+                document.getElementById("theme").href = '/style.css';
+                docCookies.setItem("lightsCookie", 1, Infinity, "/");
+            }
+        }
+    </script>
+
+    {% endif %}
     <script>
     checkThemeAndUpdateCss();
     </script>
