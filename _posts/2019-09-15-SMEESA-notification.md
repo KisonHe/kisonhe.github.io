@@ -13,7 +13,8 @@ tags: SMEESA notification
 
 ### 电路培训 已经结束
 > 需要答疑的同学，国庆期间提前问学长什么时候实验室开着有人。国庆基本是翻身的最后机会了。
-> <span style="color:red">PS：因 STlink 数量原因，不发放 STlink，所有 STlink 公用，禁止带出 320-6。有队伍想自 己在寝室进行调试，可自行购买 STlink。</span>.
+
+<span style="color:red">PS：因 STlink 数量原因，不发放 STlink，所有 STlink 公用，禁止带出 320-6。有队伍想自 己在寝室进行调试，可自行购买 STlink。</span>.
 
 
 ## 软件培训时间
@@ -38,13 +39,6 @@ tags: SMEESA notification
 
  > 以上两组要求，任选一个完成即可
 
-## 常见问题
-
-> Q1：答疑时间段什么时候公布呢？
-> A1：学长事情其实也比较多，因此答疑时间没法提前很久公布。预计在每周四，五公布答疑负责人与时间段。
-
-> Q2：我啥也不懂咋办
-> A2：去看书
 
 ## 推荐
 
