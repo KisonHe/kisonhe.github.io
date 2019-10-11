@@ -15,7 +15,7 @@ comment: false
 - <a href="https://cplusplus.com">cplusplus.com</a> 英文最全 c++/c 资料站，有你想要的一切
 - <a href="https://www.runoob.com/cprogramming/c-tutorial.html">runoob的c教程</a> 中文简明C教程 建议作为《CPP》的补充。
 - <a href="https://www.luogu.org">洛谷</a> 
-中文社区 建议在 **学会第九章** ， **至少学会第七章之后** 开始在平台上选择简单的题，自己思考思考思路，然后看看别人的做法。**不要在洛谷上抄袭题解！！！**  
+中文社区 **不要在洛谷上抄袭题解！！！**  
 
 
 
