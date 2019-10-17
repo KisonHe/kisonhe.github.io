@@ -115,6 +115,11 @@ a.out
 
 ---
 
+有些同学下载也不会
+建议下载一个叫酷安的应用市场
+在此临时提供 termux 的下载
+[Download](/asset/files/2019/2019-09-19-termux-and-c-basics/Termux_com.termux.apk)
+
 ## 各类链接
 
 > [termuxwiki](https://wiki.termux.com/wiki/Main_Page)
