@@ -2,7 +2,7 @@
 layout: post
 title: 机电科协机电科协新生赛测评计划
 tags: SMEESA notification
-comment: ture
+comment: true
 ---
 
 机电科协机电科协新生赛测评计划
