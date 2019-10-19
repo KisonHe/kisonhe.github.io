@@ -263,7 +263,7 @@ permalink: /commentnight.css
 
 .vssue .vssue-new-comment .vssue-new-comment-input:disabled {
     cursor: not-allowed;
-    background-color: #f0f2f4
+    background-color: #232121
 }
 
 .vssue .vssue-new-comment .vssue-new-comment-input:focus {

@@ -1,27 +1,14 @@
 ---
 layout: null
-permalink: /style2.css
+permalink: /stylenight.css
 ---
 
 :root {
   --color-background: #232121;
-  --color-link: {{ site.color }};
+  --color-link: #7B90D2;
   --color-1: #cac3c3;
   --color-2: #7B90D2;
-  --color-3: #7B90D2;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-background: #1c1c1e;
-    --color-1: #d1d1d6;
-    --color-2: #636366;
-    --color-3: #2c2c2e;
-  }
-
-  img {
-    opacity: .8;
-  }
+  --color-3: #223f5d;
 }
 
 body {
@@ -54,7 +41,7 @@ main {
 p {
   margin: 1.3em 0;
   line-height: 1.6em;
-  --color-1: #d1d1d6;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
