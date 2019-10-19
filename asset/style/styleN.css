@@ -6,13 +6,14 @@ permalink: /stylenight.css
 :root {
   --color-background: #232121;
   --color-link: #7B90D2;
+  --color-0-alpha: rgba(35,33,33,0.9);
   --color-1: #cac3c3;
   --color-2: #7B90D2;
   --color-3: #223f5d;
 }
 
 body {
-  padding: 0 1rem;
+  padding: 2rem 1rem;
   margin: 0 0 5rem 0;
   background: var(--color-background);
   font-family: sans-serif;
@@ -33,7 +34,8 @@ button {
 }
 
 main {
-  margin: 0 auto;
+  padding: 0 5px;
+  margin: 5rem auto;
   width: 100%;
   max-width: 800px;
 }
@@ -210,11 +212,16 @@ tbody tr:nth-child(odd) th {
 }
 
 header {
+  position: fixed;
+  display: flex;
   margin: 0 auto;
-  width: 100%;
-  max-width: 800px;
-  padding: 20px 0 80px 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1em 1em;
+  background: var(--color-0-alpha);
 }
+
 @media screen and (max-width: 700px) {
   header {
     padding: 40px 0 0 0;
