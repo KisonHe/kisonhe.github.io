@@ -26,11 +26,10 @@ body {
 button {
   background-color: var(--color-background); 
   border: none;
-  margin-left: 1.5rem;
+  margin-left: 0.5rem;
   color: var(--color-2);
   text-align: right;
-  font-weight: 300;
-  letter-spacing: 1px;
+  font-size:1.2rem;
 }
 
 main {
@@ -228,7 +227,7 @@ header {
 
 nav {
   float: right;
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
   font-size: 1.2rem;
 }
 @media screen and (max-width: 700px) {
