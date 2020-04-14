@@ -8,43 +8,82 @@
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}</title>
     <link rel='icon' type='image/png' href='{{ site.logo }}'>
     <link id="theme" rel='stylesheet' type='text/css' href='/style.css'>
+    <script>
+        function setBasicTheme(p1)
+        {
+            if (p1 == 1)
+            {
+                document.documentElement.style.setProperty('--color-background', '#FFFFFF');
+                document.documentElement.style.setProperty('--color-link', '#7B90D2');
+                document.documentElement.style.setProperty('--color-0-alpha', 'rgba(255,255,255,0.9)');
+                document.documentElement.style.setProperty('--color-1', '#000000');
+                document.documentElement.style.setProperty('--color-2', '#aeaeb2');
+                document.documentElement.style.setProperty('--color-3', '#e5e5ea');
+            }
+            else
+            {
+                document.documentElement.style.setProperty('--color-background', '#232121');             
+                document.documentElement.style.setProperty('--color-link', '#7B90D2');
+                document.documentElement.style.setProperty('--color-0-alpha', 'rgba(35,33,33,0.9)');
+                document.documentElement.style.setProperty('--color-1', '#cac3c3');
+                document.documentElement.style.setProperty('--color-2', '#7B90D2');
+                document.documentElement.style.setProperty('--color-3', '#223f5d');
+            }
+        }
+
+        function setCommentTheme(p1)
+        {
+            if (p1 == 1)
+            {
+                document.documentElement.style.setProperty('--color-comment-1', '#2c3e50');   
+                document.documentElement.style.setProperty('--color-comment-2', '#9ab0c0');   
+                document.documentElement.style.setProperty('--color-comment-3', '#3eaf7c');   
+            }
+            else
+            {
+                document.documentElement.style.setProperty('--color-comment-1', '#ffffff');   
+                document.documentElement.style.setProperty('--color-comment-2', '#9ab0c0');   
+                document.documentElement.style.setProperty('--color-comment-3', '#7B90D2');   
+            }
+        }
+    
+    </script>
+
+
     {% if page.comment == true %}
     <script>
         function checkThemeAndUpdateCss()
         {
-        if (docCookies.getItem("lightsCookie") == null)
-        {
-           docCookies.setItem("lightsCookie", 1, Infinity, "/");
-        }
-    
-        if (docCookies.getItem("lightsCookie") == 1)
-        {
-            document.getElementById("theme").href = '/style.css'; 
-            document.getElementById("commentcss").href = '/comment.css'; 
-        }
-        else
-        {
-            document.getElementById("theme").href = '/stylenight.css';
-            document.getElementById("commentcss").href = '/commentnight.css';  
-        }
+            //create one if none
+            if (docCookies.getItem("lightsCookie") == null){docCookies.setItem("lightsCookie", 1, Infinity, "/");}
+        
+            if (docCookies.getItem("lightsCookie") == 1)
+            {
+                setBasicTheme(1);
+                setCommentTheme(1);     
+            }
+            else
+            {
+                setBasicTheme(0);
+                setCommentTheme(0);
+            }
         }
 
         function changestate()
         {
-            if (docCookies.getItem("lightsCookie") == null)
-            {
-                docCookies.setItem("lightsCookie", 1, Infinity, "/");
-            }
+            //create one if none
+            if (docCookies.getItem("lightsCookie") == null){docCookies.setItem("lightsCookie", 1, Infinity, "/");}
+            
             if (docCookies.getItem("lightsCookie") == 1)
             {
-                document.getElementById("theme").href = '/stylenight.css';
-                document.getElementById("commentcss").href = '/commentnight.css';  
+                setBasicTheme(0);
+                setCommentTheme(0);
                 docCookies.setItem("lightsCookie", 0, Infinity, "/"); 
             }
             else
             {
-                document.getElementById("theme").href = '/style.css';
-                document.getElementById("commentcss").href = '/comment.css'; 
+                setBasicTheme(1);
+                setCommentTheme(1);
                 docCookies.setItem("lightsCookie", 1, Infinity, "/");
             }
         }
@@ -53,35 +92,26 @@
     <script>
         function checkThemeAndUpdateCss()
         {
-        if (docCookies.getItem("lightsCookie") == null)
-        {
-           docCookies.setItem("lightsCookie", 1, Infinity, "/");
-        }
+            if (docCookies.getItem("lightsCookie") == null){docCookies.setItem("lightsCookie", 1, Infinity, "/");}
     
-        if (docCookies.getItem("lightsCookie") == 1)
-        {
-            document.getElementById("theme").href = '/style.css'; 
-        }
-        else
-        {
-            document.getElementById("theme").href = '/stylenight.css'; 
-        }
+            if (docCookies.getItem("lightsCookie") == 1)
+            {setBasicTheme(1);}
+            else
+            {setBasicTheme(0);}
         }
 
         function changestate()
         {
-            if (docCookies.getItem("lightsCookie") == null)
-            {
-                docCookies.setItem("lightsCookie", 1, Infinity, "/");
-            }
+            if (docCookies.getItem("lightsCookie") == null){docCookies.setItem("lightsCookie", 1, Infinity, "/");}
+            
             if (docCookies.getItem("lightsCookie") == 1)
             {
-                document.getElementById("theme").href = '/stylenight.css';
+                setBasicTheme(0);
                 docCookies.setItem("lightsCookie", 0, Infinity, "/"); 
             }
             else
             {
-                document.getElementById("theme").href = '/style.css';
+                setBasicTheme(1);
                 docCookies.setItem("lightsCookie", 1, Infinity, "/");
             }
         }

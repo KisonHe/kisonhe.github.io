@@ -12,6 +12,13 @@ permalink: /comment.css
  * @copyright 2018-2019 meteorlxy
  */
 
+
+ :root {
+    --color-comment-1: #2c3e50;
+    --color-comment-2: #9ab0c0;
+    --color-comment-3: #3eaf7c;
+  }
+
 .clearfix:after,
 .vssue .vssue-new-comment .vssue-new-comment-footer:after {
     display: block;
@@ -21,7 +28,7 @@ permalink: /comment.css
 
 .vssue {
     width: 100%;
-    color: #2c3e50;
+    color: var(--color-comment-1);
     font-size: 16px;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     padding: 10px
@@ -33,9 +40,9 @@ permalink: /comment.css
     padding: 10px 20px;
     font-size: 1.05;
     font-weight: 700;
-    color: #3eaf7c;
+    color: var(--color-comment-3);
     background-color: transparent;
-    border: 2px solid #3eaf7c;
+    border: 2px solid var(--color-comment-3);
     border-radius: 10px
 }
 
@@ -55,15 +62,15 @@ permalink: /comment.css
 }
 
 .vssue .vssue-button:not(:disabled).vssue-button-primary {
-    color: #3eaf7c;
-    border-color: #3eaf7c
+    color: var(--color-comment-3);
+    border-color: var(--color-comment-3)
 }
 
 .vssue .vssue-icon {
     width: 1em;
     height: 1em;
     vertical-align: -.15em;
-    fill: #3eaf7c;
+    fill: var(--color-comment-3);
     overflow: hidden
 }
 
@@ -125,7 +132,7 @@ permalink: /comment.css
     top: 0;
     padding: 10px 20px;
     width: 100%;
-    color: #3eaf7c;
+    color: var(--color-comment-3);
     border: 2px solid #c3ead8;
     border-radius: 5px;
     background-color: #f5fbf8
@@ -136,14 +143,14 @@ permalink: /comment.css
     top: 0;
     left: 0;
     height: 2px;
-    background-color: #3eaf7c
+    background-color: var(--color-comment-3)
 }
 
 .vssue .vssue-status {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 10px;
-    color: #3eaf7c
+    color: var(--color-comment-3)
 }
 
 .vssue .vssue-status .vssue-icon {
@@ -263,14 +270,14 @@ permalink: /comment.css
 
 .vssue .vssue-new-comment .vssue-new-comment-input:disabled {
     cursor: not-allowed;
-    background-color: #f0f2f4
+    background-color: var(--color-background);
 }
 
 .vssue .vssue-new-comment .vssue-new-comment-input:focus {
     background-color: #fff;
-    border-color: #9adbbe;
-    -webkit-box-shadow: 0 0 1px 1px #9adbbe;
-    box-shadow: 0 0 1px 1px #9adbbe
+    border-color: var(--color-comment-3);
+    -webkit-box-shadow: 0 0 1px 1px var(--color-comment-3);
+    box-shadow: 0 0 1px 1px var(--color-comment-3)
 }
 
 .vssue .vssue-new-comment .vssue-new-comment-input::-webkit-input-placeholder {
@@ -298,9 +305,9 @@ permalink: /comment.css
 }
 
 .vssue .vssue-comments .vssue-comment.vssue-comment-edit-mode .vssue-comment-main {
-    border-color: #9adbbe;
-    -webkit-box-shadow: 0 0 1px 1px #9adbbe;
-    box-shadow: 0 0 1px 1px #9adbbe
+    border-color: var(--color-comment-3);
+    -webkit-box-shadow: 0 0 1px 1px var(--color-comment-3);
+    box-shadow: 0 0 1px 1px var(--color-comment-3)
 }
 
 .vssue .vssue-comments .vssue-comment.vssue-comment-disabled {
@@ -380,12 +387,12 @@ permalink: /comment.css
     cursor: pointer;
     display: inline-block;
     margin-right: 8px;
-    color: #3eaf7c
+    color: var(--color-comment-3)
 }
 
 .vssue .vssue-comments .vssue-comment .vssue-comment-footer .vssue-comment-operations {
     float: right;
-    color: #3eaf7c
+    color: var(--color-comment-3)
 }
 
 .vssue .vssue-comments .vssue-comment .vssue-comment-footer .vssue-comment-operations .vssue-comment-operation {
@@ -448,7 +455,7 @@ permalink: /comment.css
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    border: 1px solid #9adbbe;
+    border: 1px solid var(--color-comment-3);
     padding-left: .2rem;
     padding-right: 1rem;
     background-color: transparent;
@@ -463,8 +470,8 @@ permalink: /comment.css
 
 .vssue .vssue-pagination .vssue-pagination-select:focus {
     background-color: #fff;
-    -webkit-box-shadow: 0 0 .2px .2px #9adbbe;
-    box-shadow: 0 0 .2px .2px #9adbbe
+    -webkit-box-shadow: 0 0 .2px .2px var(--color-comment-3);
+    box-shadow: 0 0 .2px .2px var(--color-comment-3)
 }
 
 .vssue .vssue-pagination .vssue-pagination-link {
@@ -478,7 +485,7 @@ permalink: /comment.css
 }
 
 .vssue .vssue-pagination .vssue-pagination-link:not(.disabled) {
-    color: #3eaf7c;
+    color: var(--color-comment-3);
     font-weight: 500;
     cursor: pointer
 }
@@ -492,7 +499,7 @@ permalink: /comment.css
 .vssue :not(.vssue-comment-content) a {
     cursor: pointer;
     font-weight: 500;
-    color: #3eaf7c;
+    color: var(--color-comment-3);
     text-decoration: none
 }
 
@@ -559,7 +566,7 @@ permalink: /comment.css
 .markdown-body {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    color: #24292e;
+    color: var(--color-comment-2);
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     font-size: 16px;
     line-height: 1.5;
@@ -582,7 +589,7 @@ permalink: /comment.css
 
 .markdown-body .pl-s .pl-s1,
 .markdown-body .pl-smi {
-    color: #24292e
+    color: var(--color-comment-2)
 }
 
 .markdown-body .pl-ent {
@@ -643,12 +650,12 @@ permalink: /comment.css
 }
 
 .markdown-body .pl-mi {
-    color: #24292e;
+    color: var(--color-comment-2);
     font-style: italic
 }
 
 .markdown-body .pl-mb {
-    color: #24292e;
+    color: var(--color-comment-2);
     font-weight: 700
 }
 
@@ -1260,7 +1267,7 @@ permalink: /comment.css
 }
 
 .markdown-body .blob-code-inner {
-    color: #24292e;
+    color: var(--color-comment-2);
     font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
     font-size: 12px;
     overflow: visible;

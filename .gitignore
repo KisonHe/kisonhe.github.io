@@ -13,3 +13,6 @@
 .nfs*
 
 _site
+
+# local bundle working folder
+.bundle

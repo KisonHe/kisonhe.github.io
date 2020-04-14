@@ -22,14 +22,26 @@ body {
   color: var(--color-1);
   max-width: 100%;
 }
+/* 
+nav a {
+  margin-left: 1.5rem;
+  color: var(--color-2);
+  text-align: right;
+  font-weight: 300;
+  letter-spacing: 1px;
+} */
+
 
 button {
   background-color: var(--color-background); 
   border: none;
-  margin-left: 0.5rem;
+  margin-left: 1.5rem;
   color: var(--color-2);
   text-align: right;
-  font-size:1.2rem;
+  /* font-size:1.2rem; */
+  text-align: right;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
 main {
@@ -220,7 +232,7 @@ header {
 }
 @media screen and (max-width: 700px) {
   header {
-    padding: 40px 0 0 0;
+    padding: 10px 0 0 0;
     text-align: center;
   }
 }
