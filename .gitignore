@@ -16,3 +16,6 @@ _site
 
 # local bundle working folder
 .bundle
+
+# no use drafts
+_drafts/temp/

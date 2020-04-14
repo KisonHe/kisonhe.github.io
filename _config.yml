@@ -1,28 +1,18 @@
 # site information
 title: Kison He
-description: UESTC RM Anime
-url: https://kisonhe.github.io/
+description: USETC RM Anime
+url: https://blog.kisonhe.xyz
 author: Kison He
 email: kisonhe@outlook.com
 logo: /asset/icon/logo.png # url of your logo or avatar
 lang: zh-hans # language-territory
-color: '#7B90D2'
-
+theme-color: '#dc9fb4'
+feed: true
 
 social:
   name: Kison He
   links:
     - https://github.com/KisonHe/
-
-webmaster_verifications:
-  bing:
-  google:
-  yandex:
-
-# comment
-github-issue: 'KisonHe/kisonhe.github.io' # github username/repository, e.g. 'username/repository'
-disqus: # disqus shortname
-livere: # livere data-uid
 
 comment:
   vssue:
@@ -34,9 +24,8 @@ comment:
   disqus: # disqus shortname
   livere: # livere data-uid
 
-
-# analytic
-google_analytics: # google analytics web tracking code
+analytic:
+  google: # web tracking code
 
 # jekyll config
 permalink: /:title/
@@ -47,16 +36,10 @@ kramdown:
   syntax_highlighter_opts:
     css_class: 'highlight'
 
-sass:
-  style: :expanded
-
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo-tag
 
 include:
-  - analytics.html
 
 exclude:
   - cname
@@ -64,4 +47,3 @@ exclude:
   - gemfile.lock
   - license.txt
   - readme.md
-  - vendor

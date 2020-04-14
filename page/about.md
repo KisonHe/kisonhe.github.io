@@ -31,6 +31,6 @@ permalink: /about
 
 ---
 
-[sayo theme](https://gitlab.com/sayo-melu/sayo-melu.xyz) edited from [jekyll now](https://github.com/barryclark/jekyll-now).
+[sayo theme](https://github.com/sayo-melu/sayo-blog-old) edited from [jekyll now](https://github.com/barryclark/jekyll-now).
 
 

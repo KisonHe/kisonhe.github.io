@@ -1,15 +1,21 @@
 {% if page.comment == true %}
 {% if site.comment.vssue.state %}
-  <link id="commentcss" rel="stylesheet" href="/comment.css">
+  <link rel="stylesheet" href="https://unpkg.com/vssue/dist/vssue.min.css">
+  <style>
+    .vssue :not(.vssue-comment-content) a, .vssue .vssue-button:not(:disabled).vssue-button-primary, .vssue .vssue-status {
+      color: var(--color-link);
+      border-color: var(--color-link);
+    }
+  </style>
   <div id="vssue"></div>
   <script src="https://unpkg.com/vue/dist/vue.runtime.min.js"></script>
   <script src="https://unpkg.com/vssue/dist/vssue.github.min.js"></script>
   <script>
     new Vue({
       el: '#vssue',
-      render: h => h('Vssue', {
+      render: h => h('vssue', {
         props: {
-          title: '{{ page.title }}',
+          title: "{{ page.title }}",
           options: {
             owner: '{{ site.comment.vssue.owner }}',
             repo: '{{ site.comment.vssue.repo }}',
@@ -17,14 +23,10 @@
             clientSecret: '{{ site.comment.vssue.clientSecret }}',
             labels: ['comment'],
             prefix: '',
-            autoCreateIssue: true,
           },
         }
       })
     })
-  </script>
-  <script>
-      checkThemeAndUpdateCss();
   </script>
 {% endif %}
 {% if site.comment.disqus %}
