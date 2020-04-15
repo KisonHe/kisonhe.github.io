@@ -1,5 +1,5 @@
 # kisonhe.github.io
-
+Or, blog.kisonhe.xyz
 
 ```bash
 # install bundler
@@ -10,6 +10,7 @@ sudo gem install bundler
 bundle install
 
 # test locally
+#bundle exec jekyll serve --host 0.0.0.0
 bundle exec jekyll serve
 
 # build locally
