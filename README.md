@@ -3,10 +3,16 @@ Or, blog.kisonhe.xyz
 
 ```bash
 # install bundler
-sudo gem update
-sudo gem install bundler
+gem update
+gem install bundler
+
+# If you need to add PATH
+PATH=$PATH:/home/username/.local/share/gem/ruby/version/bin
+# Fish
+set PATH $PATH:/home/username/.local/share/gem/ruby/version/bin/
 
 # install (in folder)
+bundle config set --local path 'vendor/bundle'
 bundle install
 
 # test locally
