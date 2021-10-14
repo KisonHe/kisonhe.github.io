@@ -8,9 +8,16 @@ permalink: /about
 [email](mailto:kisonhe@outlook.com)
 
 
+## Site abandon
+
+此博客已经弃用，建议前往 [blog.h.kisonhe.xyz:2](https://blog.h.kisonhe.xyz:2) 
+
+This site will not get regular update, new web page is [blog.h.kisonhe.xyz:2](https://blog.h.kisonhe.xyz:2)
+
 ## biography
 
- 电子科大机电学院18级学生  
+ 电子科大机电学院18级学生 
+ 目前就读于深圳科创学院 
  喜欢科技，喜欢生活，喜欢ACG  
  欢迎通过邮箱与我联系交流
 
